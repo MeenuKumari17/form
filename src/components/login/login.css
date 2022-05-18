@@ -1,0 +1,99 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background: #eff0f5;
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.loginBox{
+    width: 65vh;
+    height: 60vh;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #eff0f5;  
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      
+}
+
+.loginBox:hover{
+    box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff; /* outer cyan */
+    background-color: rgba(250, 210, 210, 0.966);
+    transition: all 3s ease-in;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LoginInput{
+    height: 3vh;
+    border-radius: 10px;
+    border: none;
+    padding: 2vh;
+    width: 60vh;
+}
+
+.LoginInput:focus{
+    outline: none;
+}
+
+.LoginInput:hover{
+   
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    transition: box-shadow 2s ease;
+}
+
+.reset{
+    background-color: green;
+    border: none;
+    height: 5vh;
+    width: 15vh;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.reset:hover{
+    background-color: rgb(10, 139, 10);
+    transition: background-color 3s ease;
+}
+
+.reset:focus{
+    outline: none;
+}
+
+.register{
+    background-color: purple;
+    border: none;
+    height: 5vh;
+    width: 15vh;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.register:hover{
+    background-color: rgba(167, 80, 167, 0.952);
+    transition: background-color 3s ease;
+}
+
+.register:focus{
+    outline: none;
+}
+
+.messege{
+    color: red;
+    font-weight: bold;
+}
